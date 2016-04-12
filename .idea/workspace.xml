@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="needheader.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="needheader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/needheader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="131">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
                 <element signature="e#19#34#0" expanded="true" />
               </folding>
@@ -36,14 +36,16 @@
       <file leaf-file-name="mySpyder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mySpyder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="156">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#19#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tieba.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tieba.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tieba.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -67,6 +69,7 @@
       <list>
         <option value="$PROJECT_DIR$/mySpyder.py" />
         <option value="$PROJECT_DIR$/needheader.py" />
+        <option value="$PROJECT_DIR$/regularetion.py" />
       </list>
     </option>
   </component>
@@ -146,7 +149,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Single-thread-crawler/单线程爬虫-上线资源包/源码" />
   </component>
-  <component name="RunManager" selected="Python.needheader">
+  <component name="RunManager" selected="Python.regularetion">
     <configuration default="false" name="needheader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,6 +180,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="爬虫" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tieba.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="regularetion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="爬虫" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regularetion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -335,15 +355,17 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.mySpyder" />
       <item index="1" class="java.lang.String" itemvalue="Python.needheader" />
       <item index="2" class="java.lang.String" itemvalue="Python.tieba" />
+      <item index="3" class="java.lang.String" itemvalue="Python.regularetion" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.needheader" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tieba" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.regularetion" />
+        <item index="1" class="java.lang.String" itemvalue="Python.needheader" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tieba" />
       </list>
     </recent_temporary>
   </component>
@@ -428,29 +450,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tieba.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mySpyder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="156">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/needheader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="131">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding>
             <element signature="e#19#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regularetion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tieba.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
