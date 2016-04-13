@@ -33,16 +33,15 @@ html = '''
 selector = etree.HTML(html)
 
 #提取文本
-content = selector.xpath('//ul[@id="useful"]/li/text()')
-for each in content:
-    print each
+# content = selector.xpath('//ul[@id="useful"]/li/text()')
+# for each in content:
+#     print each
 
 #提取属性
-link = selector.xpath('//a/@href')
-for each in link:
-    print each
+# link = selector.xpath('//div[@id = "url"]/a/@href')
+# for each in link:
+#     print each
 
-title = selector.xpath('//a/@title')
-print title[0]
-
-
+# title = selector.xpath('//a/@title')
+title = selector.xpath('//a/text()')
+print title[0], title[1]
