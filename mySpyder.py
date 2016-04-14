@@ -25,11 +25,11 @@ for link in page_group:
     everyclass = re.findall(r'<a href="(bencandy.php.*? )target="_blank">', html.text, re.S)
 
     for each in everyclass:
-        m = re.match('(.*?)\" title=\'(.*?)\'', each)
+        m =  re.match('(.*?)\" title=\'(.*?)\'', each)
         content_link = 'http://znxyw.org.cn/'+m.group(1)
         content = requests.get(content_link, headers=headers)
         content.encoding = 'GBK'
-        whole = re.findall('<SPAN class=com_style>\r\n\r\n<div>&nbsp; &nbsp; (.*?)</div><div><br /></div>', content.text, re.S)
+        whole = re.findall('<SPAN class=com_style>\r\n\r\n<div>&nbsp; &nbsp;(.*?)</div><div><br /></div>', content.text, re.S)
         name = m.group(2)
 
         for s in whole:

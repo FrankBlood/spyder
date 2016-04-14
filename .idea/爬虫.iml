@@ -5,6 +5,8 @@
     <orderEntry type="jdk" jdkName="Python 2.7.11 (E:\Python27\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Class" />
+    <orderEntry type="module" module-name="Machine Learning Foundations" />
+    <orderEntry type="module" module-name="scrapy_program" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />

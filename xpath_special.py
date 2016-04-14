@@ -44,13 +44,13 @@ content = selector.xpath('//div[starts-with(@id,"test")]/text()')
 for each in content:
     print each
 
-# selector = etree.HTML(html2)
-# content_1 = selector.xpath('//div[@id="test3"]/text()')
-# for each in content_1:
-#     print each
-#
-#
-# data = selector.xpath('//div[@id="test3"]')[0]
-# info = data.xpath('string(.)')
-# content_2 = info.replace('\n','').replace(' ','')
-# print content_2
+selector = etree.HTML(html2)
+content_1 = selector.xpath('//div[@id="test3"]/text()')
+for each in content_1:
+    print each
+
+
+data = selector.xpath('//div[@id="test3"]')[0]
+info = data.xpath('string(.)')
+content_2 = info.replace('\n','').replace(' ','')
+print content_2

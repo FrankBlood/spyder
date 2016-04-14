@@ -8,8 +8,9 @@ import sys
 reload(sys)
 
 sys.setdefaultencoding('utf-8')
+#转化为utf-8文件~
 
-'''重新运行之前请删除content.txt，因为文件操作使用追加方式，会导致内容太多。'''
+#'''重新运行之前请删除content.txt，因为文件操作使用追加方式，会导致内容太多。'''
 
 def towrite(contentdict):
     f.writelines(u'回帖时间:' + str(contentdict['topic_reply_time']) + '\n')
